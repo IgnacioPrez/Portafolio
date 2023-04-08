@@ -1,0 +1,30 @@
+.about-container {
+  width: 100%;
+  margin: 15em 0 15em 0;
+  height: 100vh;
+  scroll-behavior: smooth;
+  display: flex;
+  background-image: linear-gradient(to right top, #191924, #1c1c29, #1e1e2d, #212132, #242437);
+  justify-content: end;
+}
+.about-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 90%;
+}
+.about-info p {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
