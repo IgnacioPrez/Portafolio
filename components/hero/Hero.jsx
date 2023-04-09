@@ -57,15 +57,22 @@ const Hero = () => {
           <Link href="https://www.linkedin.com/in/perez-ignacio/" target="_blank">
             <LinkedInIcon sx={btnLinkedin} />
           </Link>
-          <Link href="#">
+          <Link href="mailto:ignacio.perez.jobs@gmail.com">
             <EmailIcon sx={btnMail} />
           </Link>
           <Link href="https://github.com/IgnacioPrez" target="_blank">
             <GitHubIcon sx={btnGit} />
           </Link>
         </motion.div>
-        <Button variant="contained" color='success' size='small' endIcon={<DownloadIcon/>} type=''>
-          <a href='../../CV-Perez-Ignacio-ESP.pdf' target='_blank'>CV</a>
+        <Button
+          variant="contained"
+          color="success"
+          size="small"
+          endIcon={<DownloadIcon />}
+          href="../../CV-Perez-Ignacio-ESP.pdf"
+          target="_blank"
+        >
+          CV
         </Button>
       </motion.div>
     </div>

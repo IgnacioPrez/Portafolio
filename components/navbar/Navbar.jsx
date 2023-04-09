@@ -31,8 +31,8 @@ const Navbar = () => {
         {open && (
           <motion.nav
             variants={item}
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: '90%', opacity: 1 }}
+            initial={{ height: 0, opacity: 0, width: 0 }}
+            animate={{ height: '100vh', opacity: 1, width: '40vh' }}
             transition={{ duration: 0.5 }}
             exit="exit"
           >

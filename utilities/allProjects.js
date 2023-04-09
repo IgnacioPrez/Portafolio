@@ -32,14 +32,14 @@ export const allProjects = [
     img: eCommerce,
     id: 4,
     title: 'E-commerce de practica',
-    overwiev: 'Proyecto propio, en esta ocacion trate de practicar Material UI'
+    overwiev: 'Proyecto propio, en esta ocacion trate de practicar Material UI realizando un e-commerce'
   },
   {
     deploy: 'https://frontend-mentor-search-country.vercel.app',
     img: searchCountryImg,
     id: 5,
     title: 'Search Country',
-    overwiev: 'Proyecto realizado replicando un challeng de FrontendMentor, buscador de paises'
+    overwiev: 'Proyecto realizado replicando un challeng de FrontendMentor, un buscador de paises'
   },
   {
     deploy: 'https://nucba-proyects.vercel.app',

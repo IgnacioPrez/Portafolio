@@ -13,7 +13,7 @@ export const Skills = () => {
       <p>Tecnologías</p>
       <motion.div className="container-images" variants={containerDrag} initial="hidden" animate="visible" ref={constraintsRef}>
         {allImages.map((el) => {
-          return <motion.div key={el.id} className='ball' variants={itemDrag} drag dragConstraints={constraintsRef} >
+          return <motion.div key={el.id} className='ball' variants={itemDrag} drag dragConstraints={constraintsRef} dragSnapToOrigin='true' >
               <Image width={70} height={70} alt={el.name} src={el.img} />
             </motion.div>
         })}

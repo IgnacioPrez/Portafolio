@@ -22,7 +22,7 @@ const Projects = () => {
                 ease: [0, 0.71, 0.2, 1.01]
               }}
             >
-              <Image alt={project.id} src={project.img} />
+              <Image width={200} height={200} alt={project.id} src={project.img} />
               <a href={project.deploy} target="_blank">
                 <LinkIcon sx={{ fontSize: 'medium' }} />
                 {project.title}

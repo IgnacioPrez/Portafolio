@@ -55,7 +55,7 @@ const AboutMe = () => {
               repeatType: 'reverse'
             }}
           >
-            <Image width={350} height={350} alt="about-img" src={aboutImg} />
+            <Image width={200} height={200} alt="about-img" src={aboutImg} />
           </motion.div>
         </div>
       </motion.div>

@@ -24,7 +24,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 1em;
-  width: 90vw;
+  width: 100%;
   height: 100%;
   gap: 40px;
   align-items: center;
@@ -38,3 +38,33 @@
 .container-images img {
   -webkit-user-drag: none;
 }
+
+@media (max-width:767px) {
+  .container-skills {
+    height: auto;
+  }
+  .container-skills p {
+    font-size: xx-large;
+  }
+  .container-images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+}
+
+@media (min-width:768px) and (max-width:968px){
+  .container-skills {
+    width: 100%;
+    height: auto;
+  }
+  .container-images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    width: 100%;
+    height: 90%;
+    gap: 30px;
+    align-items: center;
+  }
+  }
