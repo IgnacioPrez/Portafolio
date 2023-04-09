@@ -1,4 +1,4 @@
-import movementImg from '../public/movement.JPG'
+import movementImg from '../public/movement.jpg'
 import netflixCloneImg from '../public/netflix-clone.png'
 import customSportsImg from '../public/custom-sports.jpg'
 import searchCountryImg from '../public/search-country.png'
