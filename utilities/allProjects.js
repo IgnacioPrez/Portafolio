@@ -1,4 +1,4 @@
-import movementImg from '../public/movement.jpg'
+import projectMovementImg from '../public/project-moovment.jpg'
 import netflixCloneImg from '../public/netflix-clone.png'
 import customSportsImg from '../public/custom-sports.jpg'
 import searchCountryImg from '../public/search-country.png'
@@ -8,7 +8,7 @@ import eCommerce from '../public/store.png'
 export const allProjects = [
   {
     deploy: 'https://c854pernfront-5m8om.ondigitalocean.app/home',
-    img: movementImg,
+    img: projectMovementImg,
     id: 1,
     title: 'MOVEment',
     overwiev: 'E-commerce realizado a manera de simulacion de trabajo real emitida por la empresa No country'
