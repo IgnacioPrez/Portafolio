@@ -84,7 +84,7 @@ svg:nth-child(3) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     text-align: right;
   }
   .hero-info h1 {
@@ -102,9 +102,9 @@ svg:nth-child(3) {
     width: 100%;
     display: flex;
     justify-content:center;
-    align-items: center;
+    align-items: end;
     flex-direction: column;
-    gap:8px;
+    gap:10px;
     height: 20vh;
     padding-right: .8em;
   }

@@ -10,10 +10,10 @@ export const Skills = () => {
 
   return (
     <section className="container-skills" id="skills">
-      <p>Tecnologías</p>
+      <p>Tecnologías <span>¿Que pasa con los iconos 🤔? Intenta agarrarlos 😁</span></p>
       <motion.div className="container-images" variants={containerDrag} initial="hidden" animate="visible" ref={constraintsRef}>
         {allImages.map((el) => {
-          return <motion.div key={el.id} className='ball' variants={itemDrag} drag dragConstraints={constraintsRef} dragSnapToOrigin='true' >
+          return <motion.div key={el.id} className='ball' variants={itemDrag} drag dragConstraints={constraintsRef} >
               <Image width={70} height={70} alt={el.name} src={el.img} />
             </motion.div>
         })}

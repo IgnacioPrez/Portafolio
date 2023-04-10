@@ -38,13 +38,21 @@
 .container-images img {
   -webkit-user-drag: none;
 }
-
+.container-skills span {
+  display: none;
+}
 @media (max-width:767px) {
   .container-skills {
     height: auto;
   }
   .container-skills p {
     font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-skills span {
+    display: block;
+    font-size: 20px;
   }
   .container-images {
     display: flex;
@@ -66,5 +74,14 @@
     height: 90%;
     gap: 30px;
     align-items: center;
+  }
+  .container-skills p {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-skills span {
+    display: block;
+    font-size: 20px;
   }
   }
