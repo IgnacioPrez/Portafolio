@@ -87,7 +87,7 @@ svg:nth-child(3) {
     gap: 10px;
     text-align: right;
   }
-  .hero-info h2 {
+  .hero-info h1 {
     font-size: 1.5rem;
   }
   .hero-info p {
@@ -101,8 +101,8 @@ svg:nth-child(3) {
   .hero-image {
     width: 100%;
     display: flex;
-    justify-content:flex-end;
-    align-items: end;
+    justify-content:center;
+    align-items: center;
     flex-direction: column;
     gap:8px;
     height: 20vh;
@@ -111,5 +111,15 @@ svg:nth-child(3) {
   .links {
     gap: 3px;
   }
+
+}
+
+
+@media  (min-width:768px) and (max-width:968px) {
+  .hero-info h1 {
+    font-size: 5rem;
+    width: 100%;
+  }
+
 
 }
