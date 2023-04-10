@@ -34,6 +34,7 @@ const AboutMe = () => {
   }
   return (
     <article className="about-container" id="about">
+      <h2>Sobre mi</h2>
       <motion.div className="about-info" variants={container} initial="hidden" animate="visible">
         <motion.p variants={child}>
           Me llamo Perez Carlos Ignacio, tengo 22 años y me encanta el mundo de la programación. Empecé estudiando

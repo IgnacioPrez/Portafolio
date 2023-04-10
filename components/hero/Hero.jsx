@@ -19,7 +19,8 @@ const btnGit = {
     backgroundColor: '#fff',
     color: '#000',
     transition: '.5s ease'
-  }
+  },
+  fontSize: '2rem'
 }
 
 const btnLinkedin = {
@@ -30,7 +31,8 @@ const btnLinkedin = {
     backgroundColor: '#0077B5',
     color: '#fff',
     transition: '.5s ease'
-  }
+  },
+  fontSize: '2rem'
 }
 
 const btnMail = {
@@ -41,14 +43,15 @@ const btnMail = {
     backgroundColor: '#FF3D3D',
     color: '#fff',
     transition: '.5s ease'
-  }
+  },
+  fontSize: '2rem'
 }
 
 const Hero = () => {
   return (
     <div className="hero-container" id="init">
       <motion.div variants={container} initial="hidden" animate="visible" className="hero-info">
-        <motion.h2 variants={child}>Ignacio Perez - Web Developer</motion.h2>
+        <motion.h1 variants={child}>Ignacio Perez - Web Developer</motion.h1>
         <motion.p variants={child}>Front end React Developer</motion.p>
       </motion.div>
       <motion.div className="hero-image" variants={container} initial="hidden" animate="visible">

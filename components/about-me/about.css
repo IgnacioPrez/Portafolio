@@ -5,7 +5,13 @@
   scroll-behavior: smooth;
   display: flex;
   background-image: linear-gradient(to right top, #191924, #1c1c29, #1e1e2d, #212132, #242437);
-  justify-content: end;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-container h2{
+    font-size: 2rem;
 }
 .about-info {
   display: flex;
@@ -39,8 +45,11 @@
     width: 100%;
     background-image: linear-gradient(to right top, #191924, #1c1c29, #1e1e2d, #212132, #242437);
     justify-content: center;
-    align-items: end;
+    align-items: center;
   }
+  .about-container h2{
+    font-size: 2rem;
+}
   .about-info {
     display: flex;
     height: auto;
