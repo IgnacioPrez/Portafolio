@@ -72,7 +72,7 @@ const Hero = () => {
           color="success"
           size="small"
           endIcon={<DownloadIcon />}
-          href="../../CV-Perez-Ignacio-ESP.pdf"
+          href="../../CV-Perez-Ignacio-ESP.pdf.pdf"
           target="_blank"
         >
           CV

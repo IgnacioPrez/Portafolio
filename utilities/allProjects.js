@@ -4,6 +4,8 @@ import customSportsImg from '../public/custom-sports.jpg'
 import searchCountryImg from '../public/search-country.png'
 import pizzaNuc from '../public/pizza-nuc.png'
 import eCommerce from '../public/store.png'
+import ticTactToe from '../public/tic-tac-toe.png'
+import todoApp from '../public/todoApp.png'
 
 export const allProjects = [
   {
@@ -47,5 +49,19 @@ export const allProjects = [
     id: 6,
     title: 'Pizza Nucba',
     overwiev: 'Proyecto realizado para el bootcamp de Nucba'
+  },
+  {
+    deploy: 'https://tic-tac-toe-iota-puce.vercel.app/',
+    img: ticTactToe,
+    id: 7,
+    title: 'Tic tac toe',
+    overwiev: 'El clásico juego de tic tac toe'
+  },
+  {
+    deploy: 'https://todo-app-redux-toolkit-kappa.vercel.app/',
+    img: todoApp,
+    id: 8,
+    title: 'TODO',
+    overwiev: 'Aplicación para listar tareas'
   }
 ]
